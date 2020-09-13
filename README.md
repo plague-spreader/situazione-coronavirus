@@ -8,7 +8,7 @@ I dati sono presi da qua: https://github.com/pcm-dpc/COVID-19
 
 ## Uso:
 
-./situazione_coronavirus.py <codice regione> ... <codice regione>
+./situazione_coronavirus.py &lt;codice regione&gt; ... &lt;codice regione&gt;
   
 Tabella codici regione:
 | Codice | Regione               |
