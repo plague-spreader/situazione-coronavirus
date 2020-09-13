@@ -241,7 +241,7 @@ def get_csv_data(codice_regionale):
 	(dates, values) = parse(headers, data)
 	now = datetime.datetime.now()
 	acceptable_day = now.day
-	if now.hour < 17:
+	if now.hour < 17: # solitamente alle 17:00 viene pubblicato il bolletino
 		acceptable_day -= 1
 	if dates[-1].day != acceptable_day and not downloaded:
 		(headers, data) = read_csv(url, False)
